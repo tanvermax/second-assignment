@@ -179,7 +179,7 @@ nav .menu_button {
   font-size: 1.16rem;
   padding: 0px 18px;
 }
-.circle img{
+.circle img {
   height: 35px;
   margin: 5px 7px;
 }
@@ -215,9 +215,10 @@ section {
   margin: auto;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 400;
-  line-height: 24px;
+  line-height: 30px;
   letter-spacing: 0.3px;
   text-align: center;
+  margin-top: 15px;
 }
 .image_Sec {
   display: flex;
@@ -284,7 +285,7 @@ section {
   font-family: "Inter", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 30px;
   letter-spacing: 0.3px;
   text-align: left;
   margin-bottom: 34px;
@@ -552,8 +553,7 @@ option {
   font-size: 1rem;
   width: 700px;
   color: rgb(154, 156, 156);
-  margin: 14px  auto;
-
+  margin: 14px auto;
 }
 .team_member {
   display: grid;
@@ -712,6 +712,96 @@ hr {
   margin-top: 36px;
   font-family: "Inter", sans-serif;
 }
+
+/* challange part */
+#chall {
+  background-color: rgb(34, 33, 33);
+}
+.challenge {
+  text-align: center;
+}
+.challenge .Crushing {
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-size: 3.48rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-top: 15px;
+}
+#join_three {
+  border: 2px solid antiquewhite;
+  font-family: "Inter", sans-serif;
+}
+.package {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+#pack {
+  border: 2px solid aliceblue;
+  
+  width: 300px;
+  border-radius: 30px;
+  background-color: azure;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+#pack h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  
+}
+.salary {
+  margin-top: 10px;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Inter", sans-serif;
+}
+.package .pack1 ul {
+  margin: 20px 0px;
+  font-family: "Inter", sans-serif;
+  
+}
+.package .pack1 li {
+  list-style-type: none;
+  line-height: 30px;
+}
+.package .pack2 li {
+  list-style-type: none;
+  line-height: 30px;
+}
+.package .pack3 li {
+  list-style-type: none;
+  line-height: 30px;
+}
+.package .pack2 ul {
+  margin: 20px 0px;
+  font-family: "Inter", sans-serif;
+}
+.package .pack3 ul {
+  margin: 20px 0px;
+  font-family: "Inter", sans-serif;
+}
+.charge {
+  color: rgb(82, 82, 82);
+}
+.fa-solid {
+  color: rgb(18, 130, 39);
+}
+#join_four{
+  background-color: black;
+  font-size: 1rem;
+  margin-top: 30px;
+}
+#join_four:hover{
+  background-color: rgb(230, 83, 60);
+}
+.salary span{
+  color: brown;
+}
+/* #pack p {
+  color: black;
+} */
 /* responsive */
 @media screen and (max-width: 425px) {
   .header_container {
@@ -794,7 +884,7 @@ hr {
     width: 176px;
     height: 78px;
     margin: 170px 0px 0px 50px;
-}
+  }
   .tutorial_two h3 {
     font-size: 1.73rem;
     padding: 18px 0px 0px 0px;
@@ -809,7 +899,7 @@ hr {
     width: 34px;
     margin: 0px 0px 0px 3px;
   }
-  .circle img{
+  .circle img {
     height: 20px;
     margin: 6px 8px;
   }
@@ -999,5 +1089,5 @@ hr {
   .strarted {
     display: inline-block;
     margin-top: 30px;
-}
+  }
 }
