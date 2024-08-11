@@ -101,9 +101,9 @@ nav .menu_button {
 .get_div p {
   color: rgb(141, 144, 146);
   margin: 30px 0px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 30px;
   letter-spacing: 0.3px;
   font-family: "Inter", sans-serif;
 }
