@@ -125,6 +125,9 @@ nav .menu_button {
   color: aliceblue;
   font-weight: 600;
 }
+.join:hover {
+  background-color: rgb(230, 83, 60);
+}
 #join_id {
   background-color: rgb(230, 83, 60);
 }
@@ -176,6 +179,10 @@ nav .menu_button {
   font-size: 1.16rem;
   padding: 0px 18px;
 }
+.circle img{
+  height: 35px;
+  margin: 5px 7px;
+}
 .circle {
   height: 45px;
   width: 45px;
@@ -184,6 +191,7 @@ nav .menu_button {
   position: relative;
   top: 25px;
 }
+
 /* 1st section  */
 section {
   padding: 6% 12%;
@@ -273,8 +281,8 @@ section {
 
 .run p {
   color: rgba(255, 255, 255, 0.5);
-  font-family: Inter;
-  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.3px;
@@ -544,7 +552,8 @@ option {
   font-size: 1rem;
   width: 700px;
   color: rgb(154, 156, 156);
-  margin: auto;
+  margin: 14px  auto;
+
 }
 .team_member {
   display: grid;
@@ -569,6 +578,7 @@ option {
 }
 #team h3 {
   margin-left: 30px;
+  font-weight: 900;
   margin-bottom: 5px;
   font-family: "Inter", sans-serif;
 }
@@ -703,7 +713,7 @@ hr {
   font-family: "Inter", sans-serif;
 }
 /* responsive */
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 425px) {
   .header_container {
     padding: 4% 4%;
     background-position: 45% 100%;
@@ -747,14 +757,14 @@ hr {
     font-size: 3rem;
   }
   .buttn_div {
-    width: 500px;
+    width: 138%;
     display: flex;
     justify-content: space-evenly;
     margin: 35px 0px 0px 0px;
   }
   .join {
     height: 60px;
-    width: 230px;
+    width: 169px;
     border: 1px solid white;
   }
   #join_id {
@@ -766,9 +776,9 @@ hr {
   .tutorial {
     width: 168px;
     height: 85px;
-    margin: 40px 0px 0px 300px;
+    margin: 40px 0px 0px 210px;
     position: relative;
-    top: 125px;
+    /* top: 125px; */
     padding: 0px 0px 20px 0px;
   }
   .tutorial h3 {
@@ -781,10 +791,10 @@ hr {
     padding: 0px 18px;
   }
   .tutorial_two {
-    width: 181px;
-    height: 83px;
-    margin: 350px 0px 0px 50px;
-  }
+    width: 176px;
+    height: 78px;
+    margin: 170px 0px 0px 50px;
+}
   .tutorial_two h3 {
     font-size: 1.73rem;
     padding: 18px 0px 0px 0px;
@@ -799,6 +809,10 @@ hr {
     width: 34px;
     margin: 0px 0px 0px 3px;
   }
+  .circle img{
+    height: 20px;
+    margin: 6px 8px;
+  }
   /* 1st section */
 
   .image_Sec {
@@ -812,7 +826,7 @@ hr {
   .habit p {
     font-size: 1rem;
     text-align: center;
-    width: 366px;
+    width: 100%;
   }
   .image_Sec p {
     width: 267px;
@@ -821,7 +835,7 @@ hr {
   /* 2nd section */
   .border_div {
     display: inline-block;
-    padding: 65px;
+    padding: 31px;
     height: 531px;
     border-radius: 20px;
     background-image: linear-gradient(
@@ -835,7 +849,7 @@ hr {
     padding: 0px 0px;
   }
   .run h2 {
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-align: left;
     width: 287px;
   }
@@ -853,7 +867,7 @@ hr {
   #join_di {
     background-color: rgb(230, 83, 60);
     border: none;
-    width: 332px;
+    width: 300px;
     height: 63px;
     margin-bottom: 40px;
     font-weight: 700;
