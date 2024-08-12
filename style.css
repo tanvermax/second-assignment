@@ -404,12 +404,12 @@ section {
 }
 /* 4rt section */
 #bmi_div {
-  padding: 4% 0%;
-  background-color: rgb(34, 33, 33);
+  padding: 1% 0%;
+ 
 }
 .bmi_title {
   width: 758px;
-  margin: auto;
+  margin: 70px auto 0px ;
 }
 .bmi_title h2 {
   color: rgb(255, 255, 255);
@@ -434,7 +434,8 @@ section {
 .bmi_sec {
   display: flex;
   justify-content: space-between;
-  margin: 4% 12%;
+  margin: 2% 12%;
+  background-color: rgb(34, 33, 33);
 }
 
 .bmi_chart h2 {
@@ -1026,10 +1027,13 @@ hr {
   }
   .bmi_sec {
     display: inline-block;
-    margin: 0% 5%;
+    margin: 0% 0%;
   }
+.bmi_chart{
+  padding: 3% 5%;
+}
   .bmi_calculator {
-    margin: 6% 0%;
+    margin: 6% 6%;
     width: 89%;
   }
   .BMI_des h2 {
@@ -1047,10 +1051,10 @@ hr {
     margin-bottom: 30px;
   }
   #BMIBMI {
-    width: 137px;
+    width: 155px;
   }
   #BMIBMIi {
-    width: 157px;
+    width: 174px;
   }
   #join_idtwo {
     border: none;
@@ -1058,6 +1062,7 @@ hr {
   #BMIBM {
     width: 96.5%;
   }
+  
   /* 5th section */
   .team_member {
     display: inline-block;
