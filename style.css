@@ -409,7 +409,7 @@ section {
 }
 .bmi_title {
   width: 758px;
-  margin: 70px auto 0px ;
+  margin: 70px auto;
 }
 .bmi_title h2 {
   color: rgb(255, 255, 255);
@@ -434,7 +434,7 @@ section {
 .bmi_sec {
   display: flex;
   justify-content: space-between;
-  margin: 2% 12%;
+  padding: 2% 12%;
   background-color: rgb(34, 33, 33);
 }
 
@@ -1010,6 +1010,7 @@ hr {
   .bmi_title {
     padding: 0% 0%;
     width: 455px;
+    margin: 32px auto
   }
   .bmi_title h2 {
     font-size: 2.3rem;
@@ -1027,7 +1028,7 @@ hr {
   }
   .bmi_sec {
     display: inline-block;
-    margin: 0% 0%;
+    padding: 0% 0%;
   }
 .bmi_chart{
   padding: 3% 5%;
