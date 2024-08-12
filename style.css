@@ -5,10 +5,10 @@
   margin: 0px;
   padding: 0px;
 }
-main{
+main {
   overflow-x: hidden;
 }
-footer{
+footer {
   overflow-x: hidden;
 }
 header h1,
@@ -1080,6 +1080,12 @@ hr {
     letter-spacing: 0.3px;
     text-align: center;
   }
+  .team_photo1 {
+    display:none;
+  }
+  .team_photo4{
+    display:none;
+  }
 
   /* footer */
   .about_us_div {
@@ -1101,6 +1107,11 @@ hr {
     display: inline-block;
     margin-top: 30px;
   }
+
+  .revers {
+    text-align: center;
+    font-size: 1rem;
+  }
   /* challenge part */
   .challenge .Crushing {
     font-size: 1.48rem;
@@ -1111,12 +1122,12 @@ hr {
   }
   .package {
     display: inline-block;
-}
-#pack {
-  width: 200px;
-  margin-bottom: 20px;
-}
-#pack h2 {
-  font-size: 1.5rem;
-}
+  }
+  #pack {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  #pack h2 {
+    font-size: 1.5rem;
+  }
 }
