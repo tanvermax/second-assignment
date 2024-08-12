@@ -333,6 +333,9 @@ section {
   margin: 0px;
   width: 100%;
 }
+.image p{
+  margin: 20px;
+}
 .image_container .image {
   block-size: 220px;
 }
@@ -405,7 +408,6 @@ section {
 /* 4rt section */
 #bmi_div {
   padding: 1% 0%;
- 
 }
 .bmi_title {
   width: 758px;
@@ -429,6 +431,7 @@ section {
   letter-spacing: 0.3px;
   text-align: left;
   width: 758px;
+  margin-top: 10px;
 }
 
 .bmi_sec {
@@ -500,6 +503,7 @@ td {
   line-height: 24px;
   letter-spacing: 0.3px;
   text-align: left;
+  margin: 20px 0px;
 }
 #BMIBMI {
   height: 55px;
@@ -662,7 +666,7 @@ footer {
   justify-content: space-between;
 }
 .about_us p {
-  width: 550px;
+  width: 471px;
 }
 .logo {
   color: rgb(230, 83, 60);
@@ -681,6 +685,8 @@ footer {
   line-height: 24px;
   letter-spacing: 0.3px;
   text-align: left;
+ 
+  margin: 20px 0px;
 }
 .strarted {
   display: flex;
@@ -851,6 +857,10 @@ hr {
   .get_div h1 {
     font-size: 3rem;
   }
+  .get_div p {
+  
+    font-size: 1rem;
+  }
   .buttn_div {
     width: 138%;
     display: flex;
@@ -916,10 +926,10 @@ hr {
     width: 100%;
   }
   .habit h2 {
-    font-size: 2.3rem;
+    font-size: 1.9rem;
   }
   .habit p {
-    font-size: 1rem;
+    font-size: .9rem;
     text-align: center;
     width: 100%;
   }
@@ -946,7 +956,7 @@ hr {
   .run h2 {
     font-size: 2rem;
     text-align: left;
-    width: 287px;
+    width: 275px;
   }
   .run p {
     width: 287px;
@@ -971,7 +981,7 @@ hr {
   /* 3rd section   */
   .traning h2 {
     color: rgb(255, 255, 255);
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 900;
     line-height: 120%;
     letter-spacing: 0%;
@@ -979,8 +989,8 @@ hr {
   }
   .traning p {
     color: rgba(255, 255, 255, 0.5);
-    width: 370px;
-    font-size: 1rem;
+    width: 312px;
+    font-size: .9rem;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
@@ -1010,7 +1020,7 @@ hr {
   .bmi_title {
     padding: 0% 0%;
     width: 455px;
-    margin: 32px auto
+    margin: 32px auto;
   }
   .bmi_title h2 {
     font-size: 2.3rem;
@@ -1030,9 +1040,9 @@ hr {
     display: inline-block;
     padding: 0% 0%;
   }
-.bmi_chart{
-  padding: 3% 5%;
-}
+  .bmi_chart {
+    padding: 3% 5%;
+  }
   .bmi_calculator {
     margin: 6% 6%;
     width: 89%;
@@ -1063,7 +1073,7 @@ hr {
   #BMIBM {
     width: 96.5%;
   }
-  
+
   /* 5th section */
   .team_member {
     display: inline-block;
@@ -1087,10 +1097,10 @@ hr {
     text-align: center;
   }
   .team_photo1 {
-    display:none;
+    display: none;
   }
-  .team_photo4{
-    display:none;
+  .team_photo4 {
+    display: none;
   }
 
   /* footer */
