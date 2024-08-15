@@ -1182,4 +1182,7 @@ hr {
   .challenge .Crushing {
     font-size: 3rem;
   }
+  .about_us p {
+    width: 446px;
+}
 }
