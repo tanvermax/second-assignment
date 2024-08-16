@@ -813,6 +813,46 @@ hr {
 /* #pack p {
   color: black;
 } */
+@media screen and (max-width: 1440px) {
+  .get_div {
+    width: 600px;
+  }
+  .get_div h1 {
+    font-size: 4.655rem;
+  }
+  .tut_div {
+    width: 60%;
+  }
+  .run h2 {
+    font-size: 2.48rem;
+  }
+  .tutorial {
+    padding: 0px 0px 20px 20px;
+    margin: 0px 0px 0px 400px;
+  }
+  .tutorial h3 {
+    font-size: 2rem;
+  }
+  .tutorial p {
+    font-size: 0.8rem;
+    padding: 0px 15px;
+  }
+  .tutorial_two {
+    padding: 0px 0px 20px 20px;
+    width: 210px;
+    /* height: 100px; */
+    margin: 252px 1px 11px 47px;
+  }
+  .tutorial_two p {
+    padding: 0px 13px;
+  }
+  .challenge .Crushing {
+    font-size: 3rem;
+  }
+  .about_us p {
+    width: 446px;
+}
+}
 /* responsive */
 @media screen and (max-width: 425px) {
   .header_container {
@@ -854,6 +894,9 @@ hr {
   .get_body {
     display: inline-block;
   }
+  .get_div {
+    width: 100%;
+  }
   .get_div h1 {
     font-size: 3rem;
   }
@@ -861,7 +904,7 @@ hr {
     font-size: 1rem;
   }
   .buttn_div {
-    width: 138%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     margin: 35px 0px 0px 0px;
@@ -1146,43 +1189,4 @@ hr {
     font-size: 1.5rem;
   }
 }
-@media (max-width: 1440px) {
-  .get_div {
-    width: 600px;
-  }
-  .get_div h1 {
-    font-size: 4.655rem;
-  }
-  .tut_div {
-    width: 60%;
-  }
-  .run h2 {
-    font-size: 2.48rem;
-  }
-  .tutorial {
-    padding: 0px 0px 20px 20px;
-    margin: 0px 0px 0px 400px;
-  }
-  .tutorial h3 {
-    font-size: 2rem;
-  }
-  .tutorial p {
-    font-size: 0.8rem;
-    padding: 0px 15px;
-  }
-  .tutorial_two {
-    padding: 0px 0px 20px 20px;
-    width: 210px;
-    /* height: 100px; */
-    margin: 252px 1px 11px 47px;
-  }
-  .tutorial_two p {
-    padding: 0px 13px;
-  }
-  .challenge .Crushing {
-    font-size: 3rem;
-  }
-  .about_us p {
-    width: 446px;
-}
-}
+
